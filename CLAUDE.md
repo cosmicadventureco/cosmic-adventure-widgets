@@ -1,6 +1,6 @@
 # Cosmic Adventure widgets (yogainzion.com + Zion Canyon Light)
 
-`public/cosmic.js` is loaded by two Squarespace sites, chosen by the script tag's `data-site`:
+`public/cosmic.js` is served at https://widget.darkskyalmanac.com/cosmic.js and loaded by two Squarespace sites, chosen by the script tag's `data-site`:
 `yoga` (yogainzion.com) and `zcl` (Zion Canyon Light). It draws the stargazing popup,
 the inline card on the stargazing page (`<div data-cosmic-embed></div>`), and the floating
 "Book here!" button.

@@ -14,12 +14,13 @@ Events are shared by both sites and each one drops off by itself after its `hide
 Edit the `EVENTS` / `SHARED` block at the top of `public/cosmic.js` and push to `main`.
 Cloudflare redeploys automatically and visitors see the change within about 5 minutes.
 
-## One-time Cloudflare setup
+## Cloudflare setup (done)
 
 1. Cloudflare dashboard → **Workers & Pages → Create → Import a repository**.
 2. Pick `cosmicadventureco/cosmic-adventure-widgets`. Leave the build command empty; the deploy
    command is `npx wrangler deploy`.
-3. Deploy. The script is then at `https://cosmic-adventure-widgets.<your-subdomain>.workers.dev/cosmic.js`.
+3. Deploy. The Worker is served at **https://widget.darkskyalmanac.com** (custom domain), so the
+   script is at `https://widget.darkskyalmanac.com/cosmic.js`.
 
 ## One-time Squarespace setup
 
@@ -28,13 +29,13 @@ Cloudflare redeploys automatically and visitors see the change within about 5 mi
 yogainzion.com:
 
 ```html
-<script src="https://cosmic-adventure-widgets.YOUR-SUBDOMAIN.workers.dev/cosmic.js" data-site="yoga" defer></script>
+<script src="https://widget.darkskyalmanac.com/cosmic.js" data-site="yoga" defer></script>
 ```
 
 Zion Canyon Light:
 
 ```html
-<script src="https://cosmic-adventure-widgets.YOUR-SUBDOMAIN.workers.dev/cosmic.js" data-site="zcl" defer></script>
+<script src="https://widget.darkskyalmanac.com/cosmic.js" data-site="zcl" defer></script>
 ```
 
 On each stargazing page, replace the events Code Block with:
