@@ -1,0 +1,9 @@
+{
+  // Cloudflare Worker that serves the files in ./public as static assets.
+  // Script URL after deploy: https://cosmic-adventure-widgets.<your-subdomain>.workers.dev/cosmic.js
+  "name": "cosmic-adventure-widgets",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public"
+  }
+}
