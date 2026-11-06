@@ -30,7 +30,7 @@
       hideAfter: '2026-11-30'
     },
     {
-      dates: 'Dec 4 – 17',
+      dates: 'December 4 – 17',
       name: 'Geminid Meteor Shower',
       desc: 'Can produce up to 120 multicolored meteors per hour at its peak. Peak viewing Dec 13 – 14.',
       hideAfter: '2026-12-17'
