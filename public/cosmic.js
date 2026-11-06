@@ -24,16 +24,16 @@
       hideAfter: '2027-02-28'
     },
     {
-      dates: 'Oct 2 – Nov 7',
-      name: 'Orionid Meteor Shower',
-      desc: "Debris from Halley's Comet — up to 25 fast meteors per hour. Peak viewing Oct 21 – 22.",
-      hideAfter: '2026-11-07'
-    },
-    {
       dates: 'November 6 – 30',
       name: 'Leonid Meteor Shower',
       desc: 'About 15 swift, bright meteors per hour. Peak viewing Nov 17 – 18.',
       hideAfter: '2026-11-30'
+    },
+    {
+      dates: 'Dec 4 – 17',
+      name: 'Geminid Meteor Shower',
+      desc: 'Can produce up to 120 multicolored meteors per hour at its peak. Peak viewing Dec 13 – 14.',
+      hideAfter: '2026-12-17'
     }
   ];
 
